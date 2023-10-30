@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#0E7CD3"
+    >
+
+    <ImageView
+        android:id="@+id/iconocarro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_carro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="10dp"
+        />
+
+    <TextView
+        android:id="@+id/TxtMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ferrari"
+        android:textColor="@color/black"
+        android:textSize="60dp"
+        android:paddingStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TxtMarca"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Diablo"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+
+
+</RelativeLayout>
